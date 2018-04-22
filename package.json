@@ -13,7 +13,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "babel --plugins=transform-class-properties,transform-es2015-modules-strip src/index.js --out-file build/image-blur.js && babel --plugins=transform-class-properties --presets=es2015 src/index.js --out-file build/imageblur.es5.js"
+    "build": "babel --plugins=transform-class-properties,transform-es2015-modules-strip src/index.js --out-file build/image-blur.js && babel --plugins=transform-class-properties --presets=es2015 src/index.js --out-file build/image-blur.es5.js"
   },
   "keywords": [
     "custom-element",
