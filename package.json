@@ -1,0 +1,32 @@
+{
+  "name": "html-imageblur",
+  "version": "0.0.1",
+  "author": {
+    "email": "6538827+bdbch@users.noreply.github.com",
+    "name": "Dominik Biedebach",
+    "url": "https://github.com/bdbch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bdbch/html-imageblur.git"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel --plugins=transform-class-properties,transform-es2015-modules-strip src/index.js --out-file build/image-blur.js && babel --plugins=transform-class-properties --presets=es2015 src/index.js --out-file build/imageblur.es5.js"
+  },
+  "keywords": [
+    "custom-element",
+    "blur",
+    "transform",
+    "css",
+    "html",
+    "image"
+  ],
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-es2015-modules-strip": "^0.1.1",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
