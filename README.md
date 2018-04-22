@@ -4,6 +4,8 @@
 
 ![Banner](banner.jpg)
 
+### [Live Demo (try to change attributes in dev tools)](https://bdbch.github.io/html-imageblur/)
+
 `image-blur` creates an adaptive, blurred version of an image src with full control over the blur value without using CSS3.
 
 ## Installation
